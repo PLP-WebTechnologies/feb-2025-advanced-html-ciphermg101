@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Advanced HTML5 Elements Including Forms">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <section>
+        <h2>Some PLP Modules Include</h2>
+        <ol type="I">
+            <li>Web Development</li>
+            <li>Python Fundamentals</li>
+            <li>Software Engineering</li>
+            <li>Software Testing</li>
+            <li>Mobile Application Development</li>
+            <li>MERN Stack</li>
+        </ol>
+    </section>
+
+    <!-- External Image from Pexels -->
+    <section>
+        <h2>Image</h2>
+        <img src="https://images.pexels.com/photos/9553909/pexels-photo-9553909.jpeg?auto=compress&cs=tinysrgb&w=600" alt="an image of a computer programmer" width="500">
+    </section>
+
+    <!-- Sample External Audio -->
+    <section>
+        <audio controls>
+            <source src="https://pixabay.com/sound-effects/sound-design-elements-sfx-ps-022-302865/" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <!-- Sample External Video -->
+    <section>
+        <video controls width="640" height="360">
+            <source src="https://videos.pexels.com/video-files/7534239/7534239-sd_640_360_25fps.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+    <!-- Table of Contacts -->
+    <section>
+        <h2>Contact Table</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>123 Main St, City</td>
+                    <td>+1234567890</td>
+                    <td>john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>456 Elm St, Town</td>
+                    <td>+0987654321</td>
+                    <td>jane.smith@example.com</td>
+                </tr>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>789 Oak St, Village</td>
+                    <td>+1122334455</td>
+                    <td>alice.johnson@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br><br>
+
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="8">
+            <br><br>
+
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+
+            <!-- Dropdown Menu -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">United States</option>
+                <option value="canada">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="australia">Australia</option>
+            </select>
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="coding" name="interests" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling">Traveling</label>
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </section>
+</body>
+</html>
